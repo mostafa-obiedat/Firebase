@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Task </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Product Management</h1>
+    </header>
+    <main>
+        <section id="product-form">
+            <h2>Create Product</h2>
+            <form id="create-product-form">
+                <input type="text" id="product-title" placeholder="Title" required>
+                <input type="number" id="product-price" placeholder="Price" required>
+                <textarea id="product-description" placeholder="Description" required></textarea>
+                <input type="text" id="product-image" placeholder="Image URL" required>
+                <button id="create" type="submit">Create Product</button>
+            </form>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <div id="product-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Firebase Task </p>
+    </footer>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Authentication -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Example</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(255, 241, 49);
+        }
+    </style>
+</head>
+<body>
+    <div id="auth-form">
+        <h2>Sign Up or Sign In</h2>
+        <input type="email" placeholder="Email" id="userEmail">
+        <input type="password" placeholder="Password" id="userPassword">
+        <br><br>
+        <button id="signUpBtn">Sign Up</button>
+        <button id="signInBtn">Sign In</button>
+    </div>
+    <div id="secretContent" style="display: none;">
+        <h1>Welcome to my website</h1>
+        <h3>This is top secret information that you can only see if user sign in</h3>
+        <button id="signOutBtn">Sign Out</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html> -->
